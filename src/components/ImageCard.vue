@@ -14,12 +14,12 @@
             </h4> 
             <h5>Description: {{item.description}}</h5>
             </div>
-                        <div class="tagSelector">
-              <select id="tags">
-                <option value="tags">Tags</option>
-                <option>{{item.tags}}</option>
-              </select>
-          </div>
+              <div class="tagSelector">
+                <select id="tags">
+                  <option value="tags">Tags</option>
+                  <option>{{item.tags}}</option>
+                </select>
+            </div>
         </div>
       </div>
     </div>
@@ -27,10 +27,9 @@
 </body>
 </template>
 
- <script scoped src="../assets/js/ImageCard.js">
+<script scoped src="../assets/js/ImageCard.js">
  @import '../assets/js/ImageCard.js';
- </script>
-
+</script>
 <style scoped src="../assets/css/ImageCard.css">
 @import '../assets/css/ImageCard.css';
 </style>

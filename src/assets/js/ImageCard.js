@@ -26,13 +26,10 @@ export default {
                         var itemsDataAuthor = flickerResponse[i].items[j].author;
                         var itemsDataDescription = flickerResponse[i].items[j].description;
                         var itemDataImage = flickerResponse[i].items[j].media.m;
-                        var itemDataTag = flickerResponse[i].items[j].tags;
-                        console.log(itemDataTag)
-                        console.log(itemsDataTitle, itemsDataAuthor, itemsDataDescription, itemDataImage, itemDataTag.includes("Safe"))
+                        var itemDataTag = flickerResponse[i].items[j].tags.includes("safe");
 
                         for (var k = 0; k < flickerResponse[i].items.length; k++) {
                             this.items.push(flickerResponse[i].items[j++]);
-                            // console.log("lasttest", this.items)
                         }
                     }
                 }
