@@ -1,5 +1,5 @@
 
-AIM: to consume the public Flickr API and display the results according to wireframe produces.
+AIM: to consume the public Flickr API and display the results according to wireframe produced.
 
 Technologies used:
 
