@@ -1,2 +1,9 @@
 flickr-wireframe.psd
 .DS_Store
+node_modules
+static
+node_modulesl
+.eslintrc.js
+.eslintignore
+.babelrc
+dist
